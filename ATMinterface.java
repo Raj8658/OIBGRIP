@@ -187,7 +187,10 @@ class BankAccount {
 
 public class ATMinterface {
     public static void main(String[] args) {
-        BankAccount ba = new BankAccount("ARBAJ", "1002");
+        System.out.println("Enter Your Name: ");
+        Scanner sc=new Scanner(System.in);
+        String name=sc.next();
+        BankAccount ba = new BankAccount(name, "1001");
         ba.checkId();
     }
 
