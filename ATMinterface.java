@@ -187,7 +187,7 @@ class BankAccount {
 
 public class ATMinterface {
     public static void main(String[] args) {
-        BankAccount ba = new BankAccount("ARBAJ", "9508");
+        BankAccount ba = new BankAccount("ARBAJ", "1002");
         ba.checkId();
     }
 
